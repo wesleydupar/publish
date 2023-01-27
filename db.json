@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "name": "wesley",
+      "address": "1st ave so, Atlanta, GA 30022",
+      "phone": "770-001-9292",
+      "email": "wesley@email.com",
+      "password": "kittycat",
+      "id": 1
+    },
+    {
+      "name": "Michael Turner",
+      "address": "580 Rolltide way",
+      "phone": "447-990-2929",
+      "email": "fastcash@yahoo.com",
+      "password": "money123",
+      "id": 2
+    },
+  
+    {
+      "name": "fuzzywuzzy",
+      "address": "light foot ln",
+      "phone": "333-332-32333",
+      "email": "fuzzy@email.com",
+      "password": "kittycat",
+      "id": 3
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 9090909090,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/44/98/2e/hotel-vt-paradise.jpg?w=700&h=-1&s=1",
+      "reviews": [
+        "Good Accomodation",
+        "Best place to relax with friends and family",
+        "The best place to chill with friends. ",
+        "The best place I ever visited."
+      ]
+    },
+    {
+      "id": 2,
+      "hotelName": "Hill Palace",
+      "city": "Kochi",
+      "description": "A cool place to relax at Lake side",
+      "amenities": "Homely Food, Sea Food, Children's Park, Boating",
+      "phoneNo": 9191919191,
+      "address": "90/1A, Kochi, Kerala",
+      "imageUrl": "https://pix10.agoda.net/hotelImages/2193759/-1/fd70117779a1424b67cd5f5e89beb54d.jpg?ca=7&ce=1&s=1024x768",
+      "reviews": [
+        "Must visit place. The cuisine available here is so amazing.",
+        "My favorite place to relax on my vacations"
+      ]
+    },
+    {
+      "id": 3,
+      "hotelName": "Monsoon Stay",
+      "city": "Chennai",
+      "description": "A luxurious but affordable stay as in your home",
+      "amenities": "24 hr Homely Food, Security, Children's Park",
+      "phoneNo": 9292929292,
+      "address": "100/1A, Chennai, Tamil Nadu",
+      "imageUrl": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_230,q_auto,w_305/v1/filestore/hhda2k9jb5vp8tfabwjwtld8qeim_168616786_4002536959791874_4564038399632288501_n.jpg",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "hotelName": "Galaxy Paradise",
+      "city": "Mumbai",
+      "description": "An affordable family stay spot at the 'City' heart",
+      "amenities": "24 hr Homely Food, Swimming Pool, Security",
+      "phoneNo": 9393939393,
+      "address": "190/1B, Mumbai, Maharastra",
+      "imageUrl": "https://media.weddingz.in/images/ac44f4eea83b062a8d5290d1e959e490/galaxy-paradise-banquet-galaxy-paradise-banquet-others-3.jpg",
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "startDate": "2020-09-22",
+      "endDate": "2020-09-27",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelName": "Paradise Stay",
+      "hotelId": 1,
+      "userId": 1
+    },
+    {
+      "startDate": "2020-09-23",
+      "endDate": "2020-09-24",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 1,
+      "id": 2,
+      "bookingId": "2"
+    },
+    {
+      "startDate": "2020-09-30",
+      "endDate": "2020-10-01",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "startDate": "2020-10-01",
+      "endDate": "2020-10-02",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 4,
+      "bookingId": 4
+    },
+    {
+      "startDate": "2020-09-25",
+      "endDate": "2020-09-26",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 2,
+      "hotelName": "Hill Palace",
+      "userId": 2,
+      "id": 5
+    }
+  ]
+}
